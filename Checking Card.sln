@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checking Card", "Chacking Cart\Checking Card.csproj", "{4BCC5A11-3C0F-4861-8923-1049BD5939D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checking Card", "Checking Card\Checking Card.csproj", "{4BCC5A11-3C0F-4861-8923-1049BD5939D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyimageButton", "MyimageButton\MyimageButton.csproj", "{4FB817E1-12D4-473E-BC81-C3252BC82D7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4BCC5A11-3C0F-4861-8923-1049BD5939D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BCC5A11-3C0F-4861-8923-1049BD5939D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BCC5A11-3C0F-4861-8923-1049BD5939D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB817E1-12D4-473E-BC81-C3252BC82D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB817E1-12D4-473E-BC81-C3252BC82D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB817E1-12D4-473E-BC81-C3252BC82D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB817E1-12D4-473E-BC81-C3252BC82D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
