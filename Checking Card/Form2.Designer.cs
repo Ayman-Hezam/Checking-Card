@@ -45,7 +45,6 @@ namespace Checking_Card
             this.txtname = new System.Windows.Forms.TextBox();
             this.txtdep = new System.Windows.Forms.TextBox();
             this.txtlevel = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lab_time = new System.Windows.Forms.Label();
             this.labname = new System.Windows.Forms.Label();
@@ -60,7 +59,6 @@ namespace Checking_Card
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.myimageButton1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -168,18 +166,6 @@ namespace Checking_Card
             this.txtlevel.TabIndex = 7;
             this.txtlevel.Text = "4";
             this.txtlevel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(822, 187);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(266, 278);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
             // 
             // groupBox1
             // 
@@ -360,7 +346,7 @@ namespace Checking_Card
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Maroon;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label9);
@@ -369,7 +355,6 @@ namespace Checking_Card
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtlevel);
             this.Controls.Add(this.txtdep);
             this.Controls.Add(this.txtname);
@@ -389,7 +374,6 @@ namespace Checking_Card
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.myimageButton1)).EndInit();
@@ -406,7 +390,6 @@ namespace Checking_Card
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lab_time;
         private System.Windows.Forms.Label label5;

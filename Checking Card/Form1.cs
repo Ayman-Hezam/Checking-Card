@@ -58,9 +58,13 @@ namespace Checking_Card
             this.Icon = Icon.ExtractAssociatedIcon(AppDomain.CurrentDomain.FriendlyName);
         }
         int i = 0;
-        private void timer1_Tick(object sender, EventArgs e)
+        public  void timer1_Tick(object sender, EventArgs e)
         {
-            
+            if (this.Visible)
+            {
+                timer1.Start();
+            }
+            else timer1.Stop();
                 
 
                 if (i == 0)
@@ -91,7 +95,7 @@ namespace Checking_Card
                 if (dr.HasRows)
                 {
                     Form2 frm2 = new Form2();
-                    frm2.txtreg_no.Text = dr["reg_no"].ToString();
+                    frm2.txtreg_no.Text = txtid.Text;
                     frm2.txtname.Text = dr["student_name"].ToString();
                     frm2.txtdep.Text = dr["department"].ToString();
                     frm2.txtlevel.Text = dr["level"].ToString();

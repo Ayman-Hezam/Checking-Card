@@ -40,7 +40,7 @@ namespace Checking_Card
         private void Form2_Load(object sender, EventArgs e)
         {
             this.Icon = Icon.ExtractAssociatedIcon(AppDomain.CurrentDomain.FriendlyName);
-            Task.Run(() => { string sp = "Welcome " + labname.Text; sp.Speak(); }).ContinueWith((Taskprev)=> {loading();});
+            Task.Run(() => { string sp = "Welcome " + labname.Text; sp.Speak(); });//.ContinueWith((Taskprev)=> {loading();});
             //t1.Start();
             
            
@@ -137,6 +137,9 @@ namespace Checking_Card
             Application.OpenForms[0].Show();
             back = true;
             this.Close();
+            
+
+
             return;
         }
 
